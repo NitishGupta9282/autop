@@ -86,7 +86,7 @@ spec:
       source:
         path: '{{ srcPath }}'
         repoURL: '{{ srcRepoURL }}'
-        targetRevision: 'HEAD'
+        targetRevision: '{{ srcTargetRevision }}'
       syncPolicy:
         automated:
           allowEmpty: true
