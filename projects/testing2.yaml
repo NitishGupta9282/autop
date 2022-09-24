@@ -52,7 +52,7 @@ spec:
       - path: apps/**/testing2/config_dir.json
       repoURL: https://github.com/NitishGupta9282/autop.git
       requeueAfterSeconds: 20
-      revision: "HEAD"
+      revision: HEAD
       template:
         metadata: {}
         spec:
