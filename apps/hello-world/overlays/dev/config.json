@@ -7,6 +7,6 @@
   "srcRepoURL": "https://github.com/NitishGupta9282/autop.git",
   "srcTargetRevision": "",
   "labels": null,
-  "annotations":
-        "test": "test"
+  "annotations": "test=test"
+        
 }
