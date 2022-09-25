@@ -68,6 +68,8 @@ spec:
   syncPolicy: {}
   template:
     metadata:
+      annotations:
+         test: test
       labels:
         app.kubernetes.io/managed-by: argocd-autopilot
         app.kubernetes.io/name: '{{ appName }}'
