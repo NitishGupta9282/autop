@@ -19,5 +19,5 @@ patches:
 images:
   - name: nginx
     newName: nitish9282/nginx
-    newTag: v1
+    newTag: v2
 
