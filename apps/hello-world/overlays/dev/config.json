@@ -8,6 +8,4 @@
   "srcTargetRevision": "",
   "labels": null,
   "annotations":
-        -   argocd-image-updater.argoproj.io/image-list: nitish9282/nginx:1.x
-        -    argocd-image-updater.argoproj.io/write-back-method: git  
 }
