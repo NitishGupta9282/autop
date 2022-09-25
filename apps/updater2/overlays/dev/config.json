@@ -1,0 +1,13 @@
+{
+  "appName": "updater2",
+  "userGivenName": "updater2",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/updater2/overlays/dev",
+  "srcRepoURL": "https://github.com/NitishGupta9282/autop.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": {
+    "test": "test1"
+  }
+}
