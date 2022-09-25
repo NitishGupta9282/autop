@@ -5,3 +5,11 @@ resources:
 
 namePrefix: nitish-
 
+patches:
+        - patch: |-
+                - op: add
+                  path: "/spec/ports/0/nodePort"
+                  value: 31189
+          target:
+            kind: Service
+            name: "guestbook-ui"
