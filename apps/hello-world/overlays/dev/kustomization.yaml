@@ -17,7 +17,7 @@ patches:
             kind: Service
             name: "guestbook-ui"     
  images:
-  - name: gcr.io/heptio-images/ks-guestbook-demo:0.1
+  - name: gcr.io/heptio-images/ks-guestbook-demo
     newName: nitish9282/nginx
     newTag: v1
 
