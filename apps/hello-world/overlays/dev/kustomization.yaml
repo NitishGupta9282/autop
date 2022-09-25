@@ -16,7 +16,7 @@ patches:
           target:
             kind: Service
             name: "guestbook-ui"     
- images:
+images:
   - name: nginx
     newName: nitish9282/nginx
     newTag: v1
