@@ -69,7 +69,8 @@ spec:
   template:
     metadata:
       annotations:
-         test: test
+         argocd-image-updater.argoproj.io/image-list: nitish9282/nginx:1.x
+         argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/githubsecret
       labels:
         app.kubernetes.io/managed-by: argocd-autopilot
         app.kubernetes.io/name: '{{ appName }}'
