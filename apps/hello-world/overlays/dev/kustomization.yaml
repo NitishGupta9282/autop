@@ -4,3 +4,6 @@ resources:
 - ../../base
 
 namePrefix: nitishgupta-
+
+commonLabels:
+  org: MyOrg
