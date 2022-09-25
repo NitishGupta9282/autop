@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - ../../base
 
-namePrefix: nitish-
+namePrefix: nitishv-
 
 patches:
         - patch: |-
