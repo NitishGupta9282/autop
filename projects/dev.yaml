@@ -29,6 +29,7 @@ kind: ApplicationSet
 metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "0"
+    argocd-image-updater.argoproj.io/image-list: nitish9282/nginx:1.x
   creationTimestamp: null
   name: dev
   namespace: argocd
