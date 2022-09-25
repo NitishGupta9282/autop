@@ -10,6 +10,10 @@ patches:
                 - op: add
                   path: "/spec/ports/0/nodePort"
                   value: 31189
+                - op: add
+                  path: "/spec/type"
+                  value: "NodePort"
           target:
             kind: Service
             name: "guestbook-ui"
+            
