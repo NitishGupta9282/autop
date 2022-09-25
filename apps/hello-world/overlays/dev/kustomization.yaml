@@ -15,9 +15,8 @@ patches:
                   value: "NodePort"
           target:
             kind: Service
-            name: "guestbook-ui"
-            
+            name: "guestbook-ui"            
  images:
-- name: gcr.io/heptio-images/ks-guestbook-demo:0.1
-- newName: nitish9282/nginx
-  newTag: v1
+        - name: gcr.io/heptio-images/ks-guestbook-demo:0.1
+        - newName: nitish9282/nginx
+          newTag: v1
