@@ -1,0 +1,13 @@
+{
+  "appName": "hello-world",
+  "userGivenName": "hello-world",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/hello-world/overlays/dev",
+  "srcRepoURL": "https://github.com/NitishGupta9282/autop.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": {
+    "{{ argocd-image-updater.argoproj.io/image-list }}": "nitish9282/nginx:1.x"
+  }
+}
