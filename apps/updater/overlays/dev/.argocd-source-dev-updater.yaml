@@ -1,4 +1,4 @@
 kustomize:
   images:
   - nitish9282/nginx:1.27
-  - nitish9282/apache:1.6
+  - nitish9282/apache@sha256:621f383cd8fde18392bb483f12ddbaafde23267641aa2567479b4e82110dee53
