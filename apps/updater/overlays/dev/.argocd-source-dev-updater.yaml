@@ -1,3 +1,0 @@
-kustomize:
-  images:
-  - nitish9282/nginx:1.24
