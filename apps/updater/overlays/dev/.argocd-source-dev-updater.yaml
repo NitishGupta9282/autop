@@ -1,4 +1,4 @@
 kustomize:
   images:
   - nitish9282/nginx:1.25
-  - nitish9282/apache:1.2
+  - nitish9282/apache:1.3
