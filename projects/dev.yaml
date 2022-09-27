@@ -69,10 +69,13 @@ spec:
   template:
     metadata:
       annotations:
-         argocd-image-updater.argoproj.io/image-list: myimage=nitish9282/nginx:latest
-         argocd-image-updater.argoproj.io/myimage.update-strategy: digest
+         argocd-image-updater.argoproj.io/image-list: 
+         argocd-image-updater.argoproj.io/update-strategy: digest
          argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/git-creds
          argocd-image-updater.argoproj.io/git-branch: main
+         argocd-image-updater.argoproj.io/image-list: >-
+            nginx=nitish9282/nginx:latest
+            apache=nitish9282/apache:latest     
       labels:
         app.kubernetes.io/managed-by: argocd-autopilot
         app.kubernetes.io/name: '{{ appName }}'
