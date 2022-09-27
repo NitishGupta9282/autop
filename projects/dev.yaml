@@ -69,7 +69,7 @@ spec:
   template:
     metadata:
       annotations:
-         argocd-image-updater.argoproj.io/image-list: nginx=nitish9282/nginx:latest-master-1.1,apache=nitish9282/apache:latest
+         argocd-image-updater.argoproj.io/image-list: nginx=nitish9282/nginx:"*",apache=nitish9282/apache:latest
          argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/git-creds
          argocd-image-updater.argoproj.io/nginx.update-strategy:  digest
          argocd-image-updater.argoproj.io/git-branch: main
