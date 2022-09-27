@@ -72,7 +72,7 @@ spec:
          argocd-image-updater.argoproj.io/image-list: nginx=nitish9282/nginx,apache=nitish9282/apache:latest
          argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/git-creds
          argocd-image-updater.argoproj.io/nginx.update-strategy:  digest
-         argocd-image-updater.argoproj.io/nginx.allow-tags: any
+         argocd-image-updater.argoproj.io/nginx.allow-tags: "*"
          argocd-image-updater.argoproj.io/git-branch: main
       labels:
         app.kubernetes.io/managed-by: argocd-autopilot
