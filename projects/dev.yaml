@@ -75,6 +75,7 @@ spec:
          argocd-image-updater.argoproj.io/image-list:  
            - nginx=nitish9282/nginx:latest
            - apache=nitish9282/apache:latest
+           - 647496772601.dkr.ecr.us-east-1.amazonaws.com/ncryptify/citrus:latest
       labels:
         app.kubernetes.io/managed-by: argocd-autopilot
         app.kubernetes.io/name: '{{ appName }}'
