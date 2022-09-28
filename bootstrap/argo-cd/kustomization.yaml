@@ -11,6 +11,12 @@ configMapGenerator:
         key: git_username
         name: autopilot-secret
   name: argocd-cm
+# Adding Image Updater
+- name: argocd-image-updater-config
+  behavior: merge
+  files:
+  - registries.conf
+
 kind: Kustomization
 namespace: argocd
 resources:
