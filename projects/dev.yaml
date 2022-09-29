@@ -75,7 +75,6 @@ spec:
          argocd-image-updater.argoproj.io/image-list:  
            - nginx=nitish9282/test:alpine
            - apache=nitish9282/test:master
-  
       labels:
         app.kubernetes.io/managed-by: argocd-autopilot
         app.kubernetes.io/name: '{{ appName }}'
