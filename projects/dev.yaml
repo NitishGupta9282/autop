@@ -68,13 +68,13 @@ spec:
   syncPolicy: {}
   template:
     metadata:
-#       annotations: 
-#          argocd-image-updater.argoproj.io/update-strategy: digest
-#          argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/git-creds
-#          argocd-image-updater.argoproj.io/git-branch: main
-#          argocd-image-updater.argoproj.io/image-list:  
-#            - nginx=nitish9282/test:alpine
-#            - apache=nitish9282/test:master
+      annotations: 
+         argocd-image-updater.argoproj.io/update-strategy: digest
+         argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/git-creds
+         argocd-image-updater.argoproj.io/git-branch: main
+         argocd-image-updater.argoproj.io/image-list:  
+           - nginx=nitish9282/test:alpine
+           - apache=nitish9282/test:master
   
       labels:
         app.kubernetes.io/managed-by: argocd-autopilot
