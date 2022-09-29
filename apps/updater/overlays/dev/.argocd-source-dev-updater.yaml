@@ -1,4 +1,0 @@
-kustomize:
-  images:
-  - nitish9282/nginx@sha256:fa27e646b8ab5a2946b978a8758d31928044ab96cf3f5cce9fff220903fc8ee6
-  - nitish9282/apache@sha256:9dbaced6d825faf1bc5b3e67eae235435e56af32263174ce39f2f88bb0dfa290
