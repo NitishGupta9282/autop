@@ -68,14 +68,14 @@ spec:
   syncPolicy: {}
   template:
     metadata:
-      annotations: 
-         argocd-image-updater.argoproj.io/update-strategy: digest
-         argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/git-creds
-         argocd-image-updater.argoproj.io/git-branch: main
-         argocd-image-updater.argoproj.io/image-list:  
-           - nginx=nitish9282/nginx:latest
-           - apache=nitish9282/apache:latest
-           - 647496772601.dkr.ecr.us-east-1.amazonaws.com/ncryptify/citrus:latest
+#       annotations: 
+#          argocd-image-updater.argoproj.io/update-strategy: digest
+#          argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/git-creds
+#          argocd-image-updater.argoproj.io/git-branch: main
+#          argocd-image-updater.argoproj.io/image-list:  
+#            - nginx=nitish9282/test:alpine
+#            - apache=nitish9282/test:master
+  
       labels:
         app.kubernetes.io/managed-by: argocd-autopilot
         app.kubernetes.io/name: '{{ appName }}'
