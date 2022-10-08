@@ -8,7 +8,7 @@
   "srcTargetRevision": "",
   "labels": null,
   "annotations": {
-    " argocd-image-updater.argoproj.io/update-strategy": "semver",
+    "argocd-image-updater.argoproj.io/update-strategy": "semver",
     "argocd-image-updater.argoproj.io/git-branch": "main",
     "argocd-image-updater.argoproj.io/image-list": "nginx",
     "argocd-image-updater.argoproj.io/write-back-method": "git"
