@@ -1,5 +1,5 @@
 {
-  "appName": "sample",
+  "appName": "sample1",
   "userGivenName": "sample",
   "destNamespace": "default",
   "destServer": "https://kubernetes.default.svc",
