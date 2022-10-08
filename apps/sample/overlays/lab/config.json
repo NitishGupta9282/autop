@@ -1,6 +1,6 @@
 {
-  "appName": "sample1",
-  "userGivenName": "sample1",
+  "appName": "sample",
+  "userGivenName": "sample",
   "destNamespace": "default",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "apps/sample/overlays/lab",
