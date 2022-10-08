@@ -1,0 +1,15 @@
+{
+  "appName": "sample",
+  "userGivenName": "sample",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/sample/overlays/lab",
+  "srcRepoURL": "https://github.com/NitishGupta9282/autop.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": {
+    "argocd-image-updater.argoproj.io/git-branch": "main",
+    "argocd-image-updater.argoproj.io/image-list": "[nitish9282/apache:1.1,nitish9282/nginx:1.1]",
+    "argocd-image-updater.argoproj.io/write-back-method": "git"
+  }
+}
