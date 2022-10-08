@@ -8,7 +8,7 @@
   "srcTargetRevision": "",
   "labels": null,
   "annotations":
-      [
-        { "op": "add" }
-      ]
+        { 
+         "op": "add"     
+   }
 }
