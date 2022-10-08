@@ -8,6 +8,6 @@
   "srcTargetRevision": "",
   "labels": null,
   "annotations": {
-    "test": "app"
+    "test"="app"
   }
 }
