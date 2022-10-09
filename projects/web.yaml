@@ -69,7 +69,10 @@ spec:
   template:
     metadata:
       annotations:
-        test: '{{ sample_web }}'
+        argocd-image-updater.argoproj.io/update-strategy: '{{ strategy }}'
+        argocd-image-updater.argoproj.io/write-back-method: '{{ method }}'
+        argocd-image-updater.argoproj.io/git-branch: '{{ branch }}'
+        argocd-image-updater.argoproj.io/image-list: '{{ images }}'
       labels:
         app.kubernetes.io/managed-by: argocd-autopilot
         app.kubernetes.io/name: '{{ appName }}'
