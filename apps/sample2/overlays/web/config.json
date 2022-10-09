@@ -8,6 +8,6 @@
   "srcTargetRevision": "",
   "labels": null,
   "annotations": {
-    "argocd-image-updater.argoproj.io~1git-branch": "main"
+    "argocd-image-updater": "main"
   }
 }
