@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - tomcat:10.1
