@@ -10,9 +10,9 @@
   "updateStrategy": "semver",
   "updateMethod": "git",
   "updateBranch": "main",
-  "updateList": [
+  "updateList": {[
                  "nginx:1.22.0", 
                  "tomcat:10.1"
-             ],
+             ]},
   "annotations": null
 }
