@@ -70,11 +70,9 @@ spec:
     metadata:
       annotations:
         argocd-image-updater.argoproj.io/update-strategy: '{{ updateStrategy }}'
-        argocd-image-updater.argoproj.io/write-back-method: git
-        argocd-image-updater.argoproj.io/git-branch: main
-        argocd-image-updater.argoproj.io/image-list: >-
-          nginx:1.22.0,
-          tomcat:10.1
+        argocd-image-updater.argoproj.io/write-back-method: '{{ updateMethod }}'
+        argocd-image-updater.argoproj.io/git-branch: '{{ updateBranch }}'
+        argocd-image-updater.argoproj.io/image-list: '{{ updateList }}'
       labels:
         app.kubernetes.io/managed-by: argocd-autopilot
         app.kubernetes.io/name: '{{ appName }}'
