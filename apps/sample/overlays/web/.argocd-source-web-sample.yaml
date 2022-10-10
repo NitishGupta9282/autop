@@ -1,4 +1,0 @@
-kustomize:
-  images:
-  - nginx:1.22
-  - tomcat:10.1.0
