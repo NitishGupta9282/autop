@@ -10,6 +10,7 @@
   "strategy": "semver",
   "method": "git",
   "branch": "main",
-  "images": "nginx:1.22.0,tomcat",
+  "images": "nginx:1.22.0
+            ,tomcat:10.1",
   "annotations": null
 }
