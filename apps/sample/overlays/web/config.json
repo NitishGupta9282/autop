@@ -8,7 +8,8 @@
   "srcTargetRevision": "",
   "labels": null,
   "updateStrategy": "semver",
-  "annotations": {
-    "updateStrategy": "semver"
-  }
+  "updateMethod": "git",
+  "updateBranch": "main",
+  "updateList": "nginx:1.22.0, tomcat:10.1",
+  "annotations": null
 }
