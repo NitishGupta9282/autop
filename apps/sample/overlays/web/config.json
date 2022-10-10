@@ -7,9 +7,5 @@
   "srcRepoURL": "https://github.com/NitishGupta9282/autop.git",
   "srcTargetRevision": "",
   "labels": null,
-  "strategy": "semver",
-  "method": "git",
-  "branch": "main",
-  "images": "nginx:1.22.0, tomcat:10.1",
   "annotations": null
 }
