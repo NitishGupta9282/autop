@@ -7,6 +7,7 @@
   "srcRepoURL": "https://github.com/NitishGupta9282/autop.git",
   "srcTargetRevision": "",
   "labels": null,
+  "updateStrategy": "semver"
   "annotations": {
     "updateStrategy": "semver"
   }
