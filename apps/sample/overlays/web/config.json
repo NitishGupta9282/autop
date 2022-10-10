@@ -12,7 +12,7 @@
   "updateBranch": "main",
   "updateList": [
     "nginx:1.22.0,"
-    "tomcat:0.10,"
-  ]
+    "tomcat:0.10"
+  ],
   "annotations": null
 }
