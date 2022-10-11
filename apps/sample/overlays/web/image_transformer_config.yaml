@@ -1,6 +1,0 @@
-images:
-  - name: nginx
-    digest: sha256:e417160f4c7b3c478e996c4692abd4c9628e05656a5c2c480b4fc0cf1c719bc1
-  - name: tomcat
-    digest: sha256:ffba96bf9c500c9caad2376e220e32b4992499c8fba843e2ca911311664e452b
-  
