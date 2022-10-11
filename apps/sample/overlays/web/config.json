@@ -11,8 +11,5 @@
   "updateMethod": "git",
   "updateBranch": "main",
   "updateList": "nginx:1.22.0, tomcat:10.1"
-  "annotations": {
-       "op": "action"
-
-   }
+  "annotations": null
 }
