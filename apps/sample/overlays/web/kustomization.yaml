@@ -5,4 +5,4 @@ resources:
 
 images:
   - name: nginx
-    Digest: e417160f4c7b
+    Digest: sha256:e417160f4c7b3c478e996c4692abd4c9628e05656a5c2c480b4fc0cf1c719bc1
