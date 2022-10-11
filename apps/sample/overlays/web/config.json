@@ -10,6 +10,8 @@
   "updateStrategy": "semver",
   "updateMethod": "git",
   "updateBranch": "main",
-  "updateList": '["nginx:1.22.0","tomcat:0.10"]',      
+  "updateList": 'nginx:1.22.0,\
+                 tomcat:0.10, \
+                 billi:0.0'
   "annotations": null
 }
