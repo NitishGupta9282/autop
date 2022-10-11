@@ -4,5 +4,5 @@ resources:
 - ../../base
 
 images:
-  - name: nginx
-    Digest: sha256:e417160f4c7b3c478e996c4692abd4c9628e05656a5c2c480b4fc0cf1c719bc1
+  - name: odaniait/aws-kubectl
+    Digest: sha256:3fff8a8570ecc98aa627331613eb1e597204f3edd66567c736800e8315d8dfca
