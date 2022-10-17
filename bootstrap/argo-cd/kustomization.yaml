@@ -23,3 +23,4 @@ resources:
 - https://raw.githubusercontent.com/argoproj-labs/argocd-image-updater/stable/manifests/install.yaml
 - argocd-vault-plugin-credentials.yaml
 - external-secret.yaml
+- path.yaml
