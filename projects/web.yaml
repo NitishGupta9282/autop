@@ -92,6 +92,8 @@ spec:
         path: '{{ srcPath }}'
         repoURL: '{{ srcRepoURL }}'
         targetRevision: '{{ srcTargetRevision }}'
+        plugin:
+           name: argocd-vault-plugin
       syncPolicy:
         automated:
           allowEmpty: true
