@@ -1,6 +1,0 @@
-
-images:
- - name: nginx
-   newTag: 1.22
- - name: tomcat
-   newTag: 10.1
