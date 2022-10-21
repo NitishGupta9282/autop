@@ -5,21 +5,13 @@ metadata:
 spec:
   template:
     spec:
-
-      # Mount SA token for Kubernets auth
-      # Note: In 2.4.0 onward, there is a dedicated SA for repo-server (not default)
-      # Note: This is not fully supported for Kubernetes < v1.19
       automountServiceAccountToken: true
-
-      # Each of the embedded YAMLs inside cmp-plugin ConfigMap will be mounted into it's respective plugin sidecar
       volumes:
         - configMap:
             name: cmp-plugin
           name: cmp-plugin
         - name: custom-tools
           emptyDir: {}
-
-      # Download tools
       initContainers:
       - name: download-tools
         image: registry.access.redhat.com/ubi8
@@ -35,18 +27,13 @@ spec:
         volumeMounts:
           - mountPath: /custom-tools
             name: custom-tools
-
-      # argocd-vault-plugin with Kustomize
-      - name: avp-kustomize
+      containers:
+      - name: avp
         command: [/var/run/argocd/argocd-cmp-server]
-        image: quay.io/argoproj/argocd:v2.4.0
+        image: registry.access.redhat.com/ubi8
         securityContext:
           runAsNonRoot: true
           runAsUser: 999
-        envFrom:
-          - secretRef:
-              name: argocd-vault-plugin-credentials
-              
         volumeMounts:
           - mountPath: /var/run/argocd
             name: var-files
@@ -57,7 +44,7 @@ spec:
 
           # Register plugins into sidecar
           - mountPath: /home/argocd/cmp-server/config/plugin.yaml
-            subPath: avp-kustomize.yaml
+            subPath: avp.yaml
             name: cmp-plugin
 
           # Important: Mount tools into $PATH
