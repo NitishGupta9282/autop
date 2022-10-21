@@ -34,9 +34,6 @@ spec:
         securityContext:
           runAsNonRoot: true
           runAsUser: 999
-        envFrom:
-          - secretRef:
-              name: argocd-vault-plugin-credentials
         volumeMounts:
           - mountPath: /var/run/argocd
             name: var-files
